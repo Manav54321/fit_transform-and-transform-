@@ -18,7 +18,7 @@
 
 **Key takeaway:** `fit_transform()` does both learning from the data and applying the transformation, whereas `transform()` only applies a transformation that was already learned. Use `fit_transform()` on training data and `transform()` on test or new data to ensure consistency in how your data is processed.
 
-Sure! Let's illustrate `fit_transform()` and `transform()` with a practical example using data scaling, which is a common preprocessing step in machine learning.
+# Let's illustrate `fit_transform()` and `transform()` with a practical example using data scaling, which is a common preprocessing step in machine learning.
 
 Suppose we have a dataset with numerical features that we want to scale using standardization (subtracting the mean and dividing by the standard deviation).
 
